@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <div class="container1">
-
-        <h2>Sign Up</h2>
-        <p>It's quick and easy.</p>
+        <div class="head">
+            <h2>Sign Up</h2>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIClNSb7obvxWFRR0XTmVGpU9R5yaOCGuSbA&usqp=CAU" alt="">
+        </div>
+        
+        <p id="phead">It's quick and easy.</p>
         <hr>
-        <input type="text" placeholder="First name" name="" id="">
-        <input type="text" placeholder="Surname" name="" id=""> <br>
+        <input type="text" id="frow" placeholder="First name" name="" id="">
+        <input type="text" id="frow1" placeholder="Surname" name="" id=""> <br>
 
-        <input placeholder="Mobile number or email address"><br>
-        <input type="password" placeholder="New password" name="" id=""> <br>
+        <input id="plh" placeholder="Mobile number or email address"><br>
+        <input id="pass" type="password" placeholder="New password" name="" id=""> <br>
 
-        <p>Date of birth <img src="https://t3.ftcdn.net/jpg/03/35/13/14/360_F_335131435_DrHIQjlOKlu3GCXtpFkIG1v0cGgM9vJC.jpg" alt=""></p>
+        <p id="dob">Date of birth <span> <img src="https://t3.ftcdn.net/jpg/03/35/13/14/360_F_335131435_DrHIQjlOKlu3GCXtpFkIG1v0cGgM9vJC.jpg" alt=""></span></p>
+        <div class="s">
         <select name="" id="">
             <option value="">1</option>
             <option value="">2</option>
@@ -69,24 +74,24 @@
         <select name="" id="">
             <option value="">2024</option>
         </select><br>
-
-        <p>Gender <img src="https://t3.ftcdn.net/jpg/03/35/13/14/360_F_335131435_DrHIQjlOKlu3GCXtpFkIG1v0cGgM9vJC.jpg" alt=""></p>
+    </div>
+        <p id="gen">Gender <span> <img src="https://t3.ftcdn.net/jpg/03/35/13/14/360_F_335131435_DrHIQjlOKlu3GCXtpFkIG1v0cGgM9vJC.jpg" alt=""></span></p>
         <div class="Gender">
-            <div class="gender-female">
+            <div class="gender gender-female">
                 <label for="">Female <input type="radio" name="gender"></label>
             </div>
-            <div class="gender-male">
+            <div class="gender gender-male">
                 <label for="">Male <input type="radio" name="gender"></label>
             </div>
-            <div class="gender-Custom">
+            <div class="gender gender-Custom">
                 <label for="">Custom <input type="radio" name="gender"></label>
             </div>
         </div>
 
-        <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
-        <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time. </p>
+        <p class="pl">People who use our service may have uploaded your contact information to <br>Facebook. <a href="https://www.facebook.com/help/637205020878504" target="_blank">Learn more. </a></p>
+        <p class="pl">By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update" target="_blank">terms</a> , <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0" target="_blank"> Privacy Policy</a>and <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0" target="_blank">Cookies Policy.</a> <br> You may receive SMS notifications from us and can opt out at any time. </p>
 
-        <button type="button">Sign Up</button>
+        <button type="button" id="signup">Sign Up</button>
     </div>
 </body>
 </html>

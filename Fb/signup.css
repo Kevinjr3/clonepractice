@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(220, 235, 237);
+}
+a{
+    text-decoration: none;
+}
+
+.container1{
+    margin: 48px 210px ;
+    width: 430px;
+    height: 540px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    
+    
+}
+.head{
+    position: relative;
+}
+h2{
+    margin-left: 15px;
+    font-size: 25px;
+}
+.head img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 12px;
+    top: -3px;
+}
+#phead{
+    margin-left: 15px;
+   
+}
+input{
+    border: 0.5px solid rgb(218, 213, 213);
+    border-radius: 5px;
+    background-color: rgba(244, 244, 244, 0.849);
+}
+input::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight:500;
+}
+
+#frow {
+    width: 190px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px
+   
+}
+#frow1{
+    width: 190px;
+    height: 30px;
+    margin-left: 5px;    
+}
+#plh, #pass{
+    width: 92%;
+    height: 30px;
+    margin: 10px 0px 7px 15px;
+}
+p{margin-left: 15px;}
+span{
+    width: 21px;
+    height: 21px;
+    background-color: black;
+    border-radius: 75%;
+}
+img{
+    width: 12px;
+    height: 12px;
+    background-color:black;
+    border-radius: 50%;
+}
+#dob{
+    margin-top: 2px;
+}
+.s{
+ margin-top: -15px;
+}
+select{
+    width: 120px;
+    height: 30px;
+    border: 0.9px solid rgb(218, 213, 213);
+    margin: 3px 0px 3px 15px;
+    border-radius: 3px;
+}
+#gen{
+    margin-top: 6px;
+}
+.Gender{
+    display: flex;
+    margin-top:-15px;
+}
+.gender{
+    width: 108px;
+    height: 17px;
+    border: 0.9px solid rgb(218, 213, 213);
+    margin: 3px 0px 3px 15px;
+    padding: 7px;
+    border-radius: 3px;
+    position: relative;
+}
+input[type=radio]{
+    position: absolute;
+    right: 10px; 
+}
+.pl{
+    font-size: 12px;
+    color: rgba(75, 72, 72, 0.871);
+}
+#signup{
+    background-color: #11c85a;
+    border: none;
+    border-radius: 7px;
+    margin: 12px 115px;
+    width:46%;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
