@@ -102,3 +102,12 @@ hr{
     margin-left: 59%;
     margin-top:25px;
 }
+#createacc a:hover{
+    color: white;
+}
+#createacc a:active{
+    color: white;
+}
+#createacc a:visited{
+    color: white;
+}
