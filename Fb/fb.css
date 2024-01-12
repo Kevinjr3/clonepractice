@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color:#e4e9f0;
+    
 }
 a{
     text-decoration: none;
@@ -15,6 +16,8 @@ a:hover{
     display: flex;
     justify-content: center;
     align-content: center;
+   
+   
 }
 #logoimg{
     width: 310px;
